@@ -1,0 +1,53 @@
+body {
+    background-color: lightblue;
+    margin: 25px;
+  }
+img {
+    border: 3px solid white;;
+  }
+  
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+        padding-right: 30px;
+        padding-left: 80px;
+  }
+  
+  h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  ul {
+    color: darkgreen;
+  }
+  ol {
+    color:indigo
+  }
+  header {
+    
+        margin-left: 80px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+      }
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#continents {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1
+  
+}
+#countries {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+
+
+}
